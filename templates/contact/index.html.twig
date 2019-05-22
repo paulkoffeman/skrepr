@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contact index{% endblock %}
+
+{% block body %}
+
+    <h1>Contact overzicht</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Naam</th>
+                <th>E-mail</th>
+                <th>Telefoonnummer</th>
+                <th>Acties</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for contact in contacts %}
+            <tr>
+                <td>{{ contact.name }}</td>
+                <td>{{ contact.email }}</td>
+                <td>{{ contact.phone }}</td>
+                <td>
+                    <a href="{{ path('contact_show', {'id': contact.id}) }}">bekijk</a>
+                    <a href="{{ path('contact_edit', {'id': contact.id}) }}">wijzig</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('contact_new') }}">Nieuw contact aanmaken</a>
+
+{% endblock %}

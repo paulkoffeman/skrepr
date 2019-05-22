@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contact wijzigen{% endblock %}
+
+{% block body %}
+    <h1>Contact wijzigen</h1>
+
+    {{ include('contact/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('contact_index') }}">Terug naar overzicht</a>
+
+    {{ include('contact/_delete_form.html.twig') }}
+{% endblock %}
