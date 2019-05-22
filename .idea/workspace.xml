@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="166f8cca-b54c-4d77-8d17-64e4878be141" name="Default Changelist" comment="" />
+    <list default="true" id="166f8cca-b54c-4d77-8d17-64e4878be141" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Controller/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Contact.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,7 @@
           <entry key="css" value="1" />
           <entry key="env" value="1" />
           <entry key="json" value="1" />
-          <entry key="php" value="55" />
+          <entry key="php" value="57" />
           <entry key="twig" value="42" />
           <entry key="yaml" value="2" />
         </counts>
@@ -34,7 +37,7 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="PHP" value="55" />
+          <entry key="PHP" value="57" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Twig" value="42" />
           <entry key="YAML" value="2" />
@@ -44,7 +47,7 @@
         <counts>
           <entry key="css" value="3" />
           <entry key="env" value="21" />
-          <entry key="php" value="40" />
+          <entry key="php" value="90" />
           <entry key="twig" value="633" />
           <entry key="txt" value="14" />
         </counts>
@@ -52,7 +55,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="PHP" value="40" />
+          <entry key="PHP" value="90" />
           <entry key="PLAIN_TEXT" value="35" />
           <entry key="Twig" value="633" />
         </counts>
@@ -61,11 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+            <state relative-caret-position="1100">
+              <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
               <folding>
                 <element signature="e#34#57#0#PHP" expanded="true" />
               </folding>
@@ -74,10 +77,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Entity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="726">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Form/ContactType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="27" />
+              <folding>
+                <element signature="e#28#51#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +111,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>name</find>
+      <find>[</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,7 +125,6 @@
         <option value="$PROJECT_DIR$/templates/inc/navbar.html.twig" />
         <option value="$PROJECT_DIR$/templates/contact/edit.html.twig" />
         <option value="$PROJECT_DIR$/assets/css/app.css" />
-        <option value="$PROJECT_DIR$/src/Entity/Contact.php" />
         <option value="$PROJECT_DIR$/templates/contact/_delete_form.html.twig" />
         <option value="$PROJECT_DIR$/templates/contact/_form.html.twig" />
         <option value="$PROJECT_DIR$/templates/contact/index.html.twig" />
@@ -109,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/Form/ContactType.php" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/ContactController.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Contact.php" />
       </list>
     </option>
   </component>
@@ -194,10 +219,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="x" value="1177" />
+    <option name="y" value="-1107" />
+    <option name="width" value="1052" />
+    <option name="height" value="665" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,6 +237,95 @@
               <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
               <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="prod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skrepr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skrepr2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -220,7 +334,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="form_valid&#9;FILE&#9;file://C:/symfony/skrepr2/var/cache/dev/ContainerD8BJbMV/getForm_TypeGuesser_ValidatorService.php&#10;form_wi&#9;FILE&#9;file://C:/symfony/skrepr2/vendor/symfony/framework-bundle/Resources/views/Form/form_widget.html.php&#10;contact&#9;null&#9;null&#10;contact_name&#9;null&#9;null&#10;Phone&#9;null&#9;null&#10;Email&#9;null&#9;null&#10;form_error&#9;FILE&#9;file://C:/symfony/skrepr2/vendor/symfony/framework-bundle/Resources/views/Form/form_errors.html.php&#10;form&#9;FILE&#9;file://C:/symfony/skrepr2/src/Form&#10;contac&#9;FILE&#9;file://C:/symfony/skrepr2/src/Entity/Contact.php&#10;routes&#9;FILE&#9;file://C:/symfony/skrepr2/config/routes.yaml" />
+    <property name="SearchEverywhereHistoryKey" value="contac&#9;FILE&#9;file://C:/symfony/skrepr2/src/Form/ContactType.php&#10;enti&#9;null&#9;null&#10;form_valid&#9;FILE&#9;file://C:/symfony/skrepr2/var/cache/dev/ContainerD8BJbMV/getForm_TypeGuesser_ValidatorService.php&#10;form_wi&#9;FILE&#9;file://C:/symfony/skrepr2/vendor/symfony/framework-bundle/Resources/views/Form/form_widget.html.php&#10;contact&#9;null&#9;null&#10;contact_name&#9;null&#9;null&#10;Phone&#9;null&#9;null&#10;Email&#9;null&#9;null&#10;form_error&#9;FILE&#9;file://C:/symfony/skrepr2/vendor/symfony/framework-bundle/Resources/views/Form/form_errors.html.php&#10;form&#9;FILE&#9;file://C:/symfony/skrepr2/src/Form&#10;routes&#9;FILE&#9;file://C:/symfony/skrepr2/config/routes.yaml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -251,7 +365,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558014767792</updated>
       <workItem from="1558014769033" duration="10021000" />
-      <workItem from="1558507225527" duration="7486000" />
+      <workItem from="1558507225527" duration="9724000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1558517115163</created>
@@ -264,7 +378,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17507000" />
+    <option name="totallyTimeSpent" value="19745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,9 +390,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2758389" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,7 +405,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3929078" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3929078" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.42978725" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -353,6 +468,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="second commit" />
     <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
@@ -402,13 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/ContactType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -591,19 +700,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Mapping/Entity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="726">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        <state relative-caret-position="1100">
+          <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
           <folding>
             <element signature="e#34#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/ContactType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" />
+          <folding>
+            <element signature="e#28#51#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

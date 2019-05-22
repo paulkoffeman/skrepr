@@ -31,16 +31,26 @@ class Contact
      */
     private $phone;
 
+    /**
+     * @return int|null
+     */
     public function getId(): ?int
     {
         return $this->id;
     }
 
+    /**
+     * @return null|string
+     */
     public function getName(): ?string
     {
         return $this->name;
     }
 
+    /**
+     * @param null|string $name
+     * @return Contact
+     */
     public function setName(?string $name): self
     {
         $this->name = $name;
@@ -48,11 +58,18 @@ class Contact
         return $this;
     }
 
+    /**
+     * @return null|string
+     */
     public function getEmail(): ?string
     {
         return $this->email;
     }
 
+    /**
+     * @param null|string $email
+     * @return Contact
+     */
     public function setEmail(?string $email): self
     {
         $this->email = $email;
@@ -60,11 +77,18 @@ class Contact
         return $this;
     }
 
+    /**
+     * @return null|string
+     */
     public function getPhone(): ?string
     {
         return $this->phone;
     }
 
+    /**
+     * @param null|string $phone
+     * @return Contact
+     */
     public function setPhone(?string $phone): self
     {
         $this->phone = $phone;
