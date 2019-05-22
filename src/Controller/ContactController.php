@@ -45,7 +45,7 @@ class ContactController extends AbstractController
                 'required' => true,
                 'attr' => array('class' => 'form-control')
             ))
-            ->add('phone', IntegerType::class, [
+            ->add('phone', TextType::class, [
                 'constraints' => new Length(['min' => 10]) , 'attr' => array('class' => 'form-control'),
             ])
             ->add('save', SubmitType::class, array(
